@@ -112,7 +112,7 @@ func RunDayOnePartTwo(filepath string) (sum int) {
 	return sum_part2
 }
 
-func RunDayOne(filepath string) {
+func RunDay1(filepath string) {
 
 	sum_part1 := RunDayOnePartOne(filepath)
 	sum_part2 := RunDayOnePartTwo(filepath)

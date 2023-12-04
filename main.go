@@ -1,7 +1,13 @@
 package main
 
-import "AoC23/Day1"
+import (
+	"AoC23/Day1"
+	"AoC23/Day2"
+)
 
 func main() {
-	Day1.RunDayOne("Day1/input.txt")
+	println("Day 1:")
+	Day1.RunDay1("Day1/input.txt")
+	println("\nDay 2:")
+	Day2.RunDay2("Day2/input.txt")
 }
